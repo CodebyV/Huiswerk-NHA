@@ -1,0 +1,56 @@
+header {
+  background-color: #0000A7;
+  color: white;
+}
+footer {
+  background-color: #A6A6A6;
+  color: white;
+}
+#Analytics_text {
+  background-color: #844DA7;
+}
+#Dataset {
+  background-color: #C06FF2;
+}
+#Infosec {
+  background-color: #9D8FA6;
+}
+#Enterprise_architecture {
+  background-color: #E5D0F2;
+}
+#Governance {
+  background-color: #84A1A7;
+}
+#Database {
+  background-color: #BFEAF2;
+}
+#Security_governance {
+  background-color: #A69483;
+}
+#Archimate {
+  background-color: #F2D0BF;
+}
+#Analytics_afbeelding {
+  background-color: #84F1A7;
+}
+#Dataset_afbeelding {
+  background-color: #5BA673;
+}
+#Infosec_afbeelding {
+  background-color: #ABF285;
+}
+#Enterprise_architecture_afbeelding {
+  background-color: #75A65B;
+}
+#Governance_afbeelding {
+  background-color: #84F10C;
+}
+#Database_afbeelding {
+  background-color: #5AA608;
+}
+#Security_governance_afbeelding {
+  background-color: #F2C80C;
+}
+#Archimate_afbeelding {
+  background-color: #A68908;
+}

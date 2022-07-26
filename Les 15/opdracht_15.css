@@ -1,0 +1,106 @@
+html {
+  background: grey;
+}
+body {
+  background-color: lightgrey;
+}
+header {
+  background-color: blue;
+  height: 100px;
+  margin: 5px;
+}
+
+footer {
+  padding: 5px;
+  margin: 5px;
+  background: #B3A2B3;
+}
+
+header li {
+  display: inline-block;
+  background-color: #6666FF;
+  font-size: 40px;
+  margin-top: 25px;
+  border-radius: 2px 2px 2px 2px;
+  width: 200px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+header h1 {
+  padding: 30px;
+}
+
+header button {
+  display: block;
+  margin: 0 auto;
+  height: 50px;
+  width: 100px;
+  background-color: #4747B3;
+  color: #FFFFFF;
+  border-radius: 2px 2px 2px 2px;
+}
+
+header button:hover {
+  background: #FF8000;
+  border-color: red;
+}
+
+header button a {
+  text-decoration: none;
+  color: white;
+}
+
+header button a:hover {
+  color: yellow;
+  text-transform: uppercase;
+}
+
+p {
+  background-color: #A666FF;
+  margin: 5px;
+  font-family:monospace;
+  font-style: oblique;
+  padding: 5px;
+}
+
+img {
+  margin: 10px;
+  border-radius: 50px 50px 50px 50px;
+  border-style: double;
+}
+
+table {
+  background-color: #A666FF;
+  text-align: center;
+  width: 99.2%;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+th, td {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+
+.center {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#footercopy {
+  text-align: right;
+  color: black;
+}
+
+#contact_table {
+  border-collapse: collapse;
+  text-align: right;
+}
+
+#verzend:hover {
+  background-color: green;
+}

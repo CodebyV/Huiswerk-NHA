@@ -1,0 +1,81 @@
+[class*="col-"] {
+  width: 100%;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;
+        background-color: rgba(43,107,29,0.2);
+        border-radius: 2%;
+        margin-left: 2.5%;
+        margin-right: 2.2%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (min-width: 600px) {
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+
+body {
+  background-color: rgba(219,164,44,0.15)
+}
+h2 {
+  font-size: 20px;
+}
+
+ul {
+  font-size: 13.5px;
+}
+
+li {
+  margin: 5px;
+}
+.header{
+    position: relative;
+    display: inline-block;
+    background: url(Afbeeldingen/kerkrade.jpg), url(Afbeeldingen/kerkrade4.jpg), url(Afbeeldingen/kerkrade3.jpg);
+    background-size: auto, auto 100%, auto 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: left, center, right;
+    height: 200px;
+    width: 100%;
+    background-color: rgba(199,174,84,0.25);
+}
+
+.header .koptekst {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  color: brown;
+  margin-left: 9.5%;
+  margin-top: 4%;
+  text-align: center;
+  width: 40%;
+  }
+
+.header .toevoeging {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  color: brown;
+  margin-left: 50.5%;
+  margin-top: 4%;
+  text-align: center;
+  width: 40%;
+}
+
+
+
+#gaiainfo {
+
+}
+
+#gaiafoto {
+  display: inline-block;
+}

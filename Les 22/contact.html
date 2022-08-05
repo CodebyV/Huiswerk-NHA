@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Les 22</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap-CSS -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+    crossorigin="anonymous">
+  </head>
+  <body class="container-sm">
+    <header>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary bg-gradient">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1 float-md-start">Slimmerstuderen.nl</span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav" >
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="overmij.html">Over Mij</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+    </header>
+    <h3 style="text-align: center; margin-top: 4%;">Contact</h3>
+    <form class="" action="https://formspree.io/f/mknewyqd" method="post">
+     <div class="mb-3">
+       <label for="naam" class="form-label">Naam</label>
+       <input type="text" class="form-control" id="naam" placeholder="naam" name="naam">
+     </div>
+     <div class="mb-3">
+       <label for="E-mail" class="form-label">E-mail</label>
+       <input type="e-mail" class="form-control" id="E-mail" placeholder="E-mail" required="@" name="e-mail">
+     </div>
+     <div class="mb-3">
+       <label for="bericht" class="form-label">Bericht</label>
+       <textarea class="form-control" id="bericht" rows="3" name="text"></textarea>
+     </div>
+     <input type="submit" value="Verzenden">
+    </form>
+    <footer style="text-align: right;" height="200px">
+    <hr>
+    ©Thom
+    </footer>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous">
+    </script>
+  </body>
+</html>
